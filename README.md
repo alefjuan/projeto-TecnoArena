@@ -4,7 +4,7 @@ Projeto para estudos com ideia de criação de site de cursos
 
 # GitHub Pages
 
-<https://alefjuan.github.io/projeto-TecnoLake/>
+https://alefjuan.github.io/projeto-TecnoLake/
 
 # Checkist
 
