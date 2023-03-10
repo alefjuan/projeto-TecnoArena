@@ -110,11 +110,27 @@ body
     width: 33em;
     margin-top: 3em;
     height: 3em;
-    border-radius: 10px;
+    border-radius: 5px;
     border-color: var(--green-sea);
     color: black;
 }
-
+.acesso button
+{
+    width: 9em;
+    margin-top: 3em;
+    height: 2.5em;
+    border-radius: 5px;
+    border-color: var(--green-sea);
+    color: black;
+    background-color: var(--green-sea);
+}
+.acesso a{
+    font-size: 16px;
+    padding: 3em;
+    color: var(--green-sea);
+    text-decoration: none;
+    
+}
 .marca-footer
 {
     width: 100%;
