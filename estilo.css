@@ -45,36 +45,82 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+:root{
+    --white:white;
+    --green-sea:rgb(43, 145, 145);
+    --gray-light:rgb(211, 211, 211);
+    --black:black;
+    --dark-gray:rgb(153, 153, 153);
+}
 html{
-    font-family:serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:var(--white);
 }
 header{
     width: 100%;
-    background-color: white;
-    height: 70px;
+    background-color: var(--green-sea);
+    height: auto;
     box-shadow: 4px 2px 9px 1px rgba(0, 0, 0, 0.4);
 }
+body
+{
+    background-color:var(--gray-light);
+}
+
 .divisao
 {
-    padding-left: 4em;
-    padding-right: 4em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    margin:0 auto;
+    max-width: 1200px;
+    padding: 1em;
 }
+
+.marca{
+    font-size: 2em;
+    cursor:default;
+}
+.cont{
+
+    width: 1000px;
+    margin:0 auto;
+    margin-top:4em;
+    margin-bottom: 4em;
+    padding: 5em;
+    
+}
+.laptop
+{
+    width: 50%;
+    float: left;
+}
+.acesso
+{
+    width: 50%;
+    float: left;
+    size: 4;
+}
+ .acesso h1{
+    font-size: 3em;
+    color:var(--green-sea);
+ }
+
+.acesso .campos input
+{
+    padding-left: 3em;
+    width: 33em;
+    margin-top: 3em;
+    height: 3em;
+    border-radius: 10px;
+    border-color: var(--green-sea);
+    color: black;
+}
+
 .marca-footer
 {
     width: 100%;
-    padding-top:1em;
-    padding-bottom: 1em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
     border-top: solid;
     border-color: black ;
     position: fixed;
     bottom: 0;
-}
-.cont{
-    width: 1000px;
-    margin:0 auto;
-    padding:2em;
+    background-color: var(--green-sea);
 }
