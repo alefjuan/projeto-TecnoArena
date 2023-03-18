@@ -22,13 +22,13 @@ header {
   color: var(--verde);
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-  cursor: default;
+  cursor: pointer;
 }
 
 .container {
   width: 400px;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 form {
@@ -45,7 +45,6 @@ form h2 {
 form a {
   text-decoration: none;
   color: var(--verde);
-  padding-right: 30px;
 }
 
 label,
@@ -55,7 +54,8 @@ input {
 }
 
 input[type="text"],
-input[type="password"] {
+input[type="password"],
+input[type="email"] {
   padding: 10px;
   width: 100%;
   border-radius: 5px;
