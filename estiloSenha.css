@@ -43,12 +43,11 @@ form h2 {
   padding-bottom: 20px;
 }
 form a {
-    text-decoration: none;
-    color: var(--verde);
-  }
+  text-decoration: none;
+  color: var(--verde);
+}
 
-label,
-input {
+label, input {
   display: block;
   margin-bottom: 10px;
 }
