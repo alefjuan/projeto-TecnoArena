@@ -42,6 +42,10 @@ form h2 {
   padding-top: 10px;
   padding-bottom: 20px;
 }
+form a {
+    text-decoration: none;
+    color: var(--verde);
+  }
 
 label,
 input {
