@@ -6,6 +6,10 @@ Projeto para estudos com ideia de criação de site de cursos
 
 https://alefjuan.github.io/projeto-TecnoLake/Login/index.html
 
+# Telas no Figma
+
+https://www.figma.com/file/W0idlaEdQCbE5qLpLg1jXy/Untitled?node-id=0%3A1&t=51HW2ASM2t5CDZHD-1
+
 # Checkist
 
 Caixas de Diálogo
