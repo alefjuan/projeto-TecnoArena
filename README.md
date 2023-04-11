@@ -21,15 +21,15 @@ Caixas de Diálogo
 Temporizadores
 
 - [ ] setInterval
-- [ ] setTimeout
+- [X] setTimeout
 
 Funções
 
 - [ ] Função anônima com argumento
 - [ ] Função anônima sem argumento
 - [ ] Função anônima com retorno
-- [ ] Função auto-executável
-- [ ] Função com nome
+- [X] Função auto-executável
+- [X] Função com nome
 - [ ] Função aninhada/local - declarar uma função dentro de outra
 - [ ] Passagem de uma função como parâmetro
 - [ ] Função Flecha - Arrow Function
@@ -45,8 +45,8 @@ Eventos
 
 Acesso aos elementos DOM do HTML
 
-- [ ] Via referência DOM pelo id do elemento HTML
-- [ ] Via getElementByID()
+- [X] Via referência DOM pelo id do elemento HTML
+- [X] Via getElementByID()
 - [ ] Via getElementsByName()
 - [ ] Via getElementsByTagName()
 - [ ] Via seletores CSS usados na função querySelector() ou querySelectorAll()
