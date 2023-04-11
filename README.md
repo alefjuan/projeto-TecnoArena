@@ -16,27 +16,27 @@ Caixas de Diálogo
 
 - [ ] prompt
 - [ ] alert
-- [X] confirm
+- [✓] confirm
 
 Temporizadores
 
 - [ ] setInterval
-- [X] setTimeout
+- [✓] setTimeout
 
 Funções
 
 - [ ] Função anônima com argumento
 - [ ] Função anônima sem argumento
 - [ ] Função anônima com retorno
-- [X] Função auto-executável
-- [X] Função com nome
+- [✓] Função auto-executável
+- [✓] Função com nome
 - [ ] Função aninhada/local - declarar uma função dentro de outra
 - [ ] Passagem de uma função como parâmetro
 - [ ] Função Flecha - Arrow Function
 
 Eventos
 
-- [x] Evento de carregamento do documento - onload
+- [✓] Evento de carregamento do documento - onload
 - [ ] Evento de movimento do mouse
 - [ ] Evento de teclado - usar charCode ou keyCode
 - [ ] Eventos de formulário - onfocus e onblur
@@ -45,8 +45,8 @@ Eventos
 
 Acesso aos elementos DOM do HTML
 
-- [X] Via referência DOM pelo id do elemento HTML
-- [X] Via getElementByID()
+- [✓] Via referência DOM pelo id do elemento HTML
+- [✓] Via getElementByID()
 - [ ] Via getElementsByName()
 - [ ] Via getElementsByTagName()
 - [ ] Via seletores CSS usados na função querySelector() ou querySelectorAll()
