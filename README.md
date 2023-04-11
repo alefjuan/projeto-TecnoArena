@@ -16,7 +16,7 @@ Caixas de Diálogo
 
 - [ ] prompt
 - [ ] alert
-- [OK] confirm
+- [X] confirm
 
 Temporizadores
 
