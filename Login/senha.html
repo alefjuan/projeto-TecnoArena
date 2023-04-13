@@ -4,7 +4,7 @@
     <title>TecnoLake - Esqueceu a senha?</title>
     <link rel="stylesheet" href="estiloSenha.css" />
   </head>
-  <body>
+  <body onload="carregar()">
     <header>
       <h2>TecnoLake</h2>
     </header>
@@ -15,7 +15,7 @@
         <label for="email">Email para confirmação</label>
         <input type="email" id="email" name="email" required />
 
-        <input type="submit" value="Enviar" />
+        <input type="submit" name="Envio">
         <!-- FAZER UM ALERT!!!-->
         <a href="index.html">Voltar</a>
       </form>
@@ -24,5 +24,6 @@
     <footer>
       <p>&copy; 2023 - Todos os direitos reservados</p>
     </footer>
+    <script src="scriptLogin.js"></script>
   </body>
 </html>
