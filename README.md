@@ -14,30 +14,30 @@ https://www.figma.com/file/W0idlaEdQCbE5qLpLg1jXy/Untitled?node-id=0%3A1&t=51HW2
 
 Caixas de Diálogo
 
-- [ ] prompt
-- [ ] alert
+- [✓] prompt
+- [✓] alert
 - [✓] confirm
 
 Temporizadores
 
-- [ ] setInterval
+- [✓] setInterval
 - [✓] setTimeout
 
 Funções
 
-- [ ] Função anônima com argumento
-- [ ] Função anônima sem argumento
-- [ ] Função anônima com retorno
+- [✓] Função anônima com argumento
+- [✓] Função anônima sem argumento
+- [✓] Função anônima com retorno
 - [✓] Função auto-executável
 - [✓] Função com nome
-- [ ] Função aninhada/local - declarar uma função dentro de outra
-- [ ] Passagem de uma função como parâmetro
+- [✓] Função aninhada/local - declarar uma função dentro de outra
+- [✓] Passagem de uma função como parâmetro
 - [ ] Função Flecha - Arrow Function
 
 Eventos
 
 - [✓] Evento de carregamento do documento - onload
-- [ ] Evento de movimento do mouse
+- [✓] Evento de movimento do mouse
 - [ ] Evento de teclado - usar charCode ou keyCode
 - [ ] Eventos de formulário - onfocus e onblur
 - [ ] Imprimir alguma propriedade do objeto event recebido como parâmetro
@@ -47,7 +47,7 @@ Acesso aos elementos DOM do HTML
 
 - [✓] Via referência DOM pelo id do elemento HTML
 - [✓] Via getElementByID()
-- [ ] Via getElementsByName()
+- [✓] Via getElementsByName()
 - [ ] Via getElementsByTagName()
 - [ ] Via seletores CSS usados na função querySelector() ou querySelectorAll()
 
