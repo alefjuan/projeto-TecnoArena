@@ -41,4 +41,21 @@ function fazerPausaParaSeAlongar() {
   alert("Hora de fazer uma pausa para se alongar!");
 }
 setInterval(fazerPausaParaSeAlongar, 1000 * 60 * 60);
+
+document.addEventListener("keydown", function(event) {
+  if(event.key ==="h")
+  {
+    alert("para ajuda, consulte um dos gestores do programa")
+  }
+
+});
+const gestores=[
+  Alef, 
+  Juan,
+  Ferreira
+]
+gestores.forEach(function(nomes)
+{
+  console.log(nomes)
+})
 }
