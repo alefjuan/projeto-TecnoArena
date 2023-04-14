@@ -61,9 +61,9 @@ Tratadores de Evento
 Objetos Nativos
 
 - [ ] Usar pelo menos 3 métodos de manipulação de array
-- [ ] Usar laço de repetição (for..in ou for..of ou forEach)
+- [✓] Usar laço de repetição (for..in ou for..of ou forEach)
 - [ ] Usar pelo menos 3 métodos para manipulação de string
-- [ ] String Template
+- [✓] String Template
 
 Objetos
 
