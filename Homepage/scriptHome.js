@@ -53,9 +53,19 @@ const gestores=[
   Alef, 
   Juan,
   Ferreira
-]
+].toLocaleString
+
 gestores.forEach(function(nomes)
 {
   console.log(nomes)
 })
+const alunos=[
+  Gabriel, Correa, Maria, Davi, Lemos, Vinicius, Leticia
+]
+
+console.log(alunos.sort())
+console.log(alunos.filter())
+console.log(alunos.map())
+
+
 }
