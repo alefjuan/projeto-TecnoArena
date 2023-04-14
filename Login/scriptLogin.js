@@ -19,4 +19,14 @@ function carregar()
         console.log("Argumento a: " + nome);
         console.log("Argumento b: " + sobrenome);
       })("", '"');
+
+     
+      document.getElementById("meuCampo").onfocus = function() {
+        console.log('foco')
+      };
+      
+      document.getElementById("meuCampo").onblur = function() {
+        console.log("desf");
+      };
+    
 }
