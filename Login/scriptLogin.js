@@ -3,7 +3,7 @@ function carregar()
     
       
     (function() {
-        console.log("Função anônima sem retorno.");
+        console.log("");
       })();
     
     let enviar = document.getElementsByName("Envio")[0]
