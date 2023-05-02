@@ -10,6 +10,9 @@ https://alefjuan.github.io/projeto-TecnoLake/Login/index.html
 
 https://www.figma.com/file/W0idlaEdQCbE5qLpLg1jXy/Untitled?node-id=0%3A1&t=51HW2ASM2t5CDZHD-1
 
+# Video da primeira parte
+https://youtu.be/kqN8r2Tw4gQ
+
 # Checkist
 
 Caixas de Diálogo
