@@ -74,6 +74,8 @@ Objetos
 - [✓] Criar objetos a partir da definição de classes do ES6
 - [✓] Usar herança prototipal nativa ou herança de classes do ES6
 
+---------------------------------------------------------------------------------------------------------------------
+
 Qualidade do código
 
 - [ ] Usar um Style Guide - apresentar o uso de pelo menos 10 regras do style escolhido (sugerido AirBnb)
@@ -95,6 +97,8 @@ Formulário
 - [ ] Alterar o conteúdo de elementos div ou p com a propriedade innerHTML ou textContent
 - [ ] Manipulação de elemento de listagem, como checkbox, radio ou select
 - [ ] Acesso aos elementos de um formulário via hierarquia (caminho) de objetos, ou seja, array forms e elements
+
+---------------------------------------------------------------------------------------------------------------------
 
 jQuery
 
