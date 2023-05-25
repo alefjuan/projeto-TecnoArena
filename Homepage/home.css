@@ -131,3 +131,19 @@ main aside .util img:hover{
   ); 
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
 }
+
+/* Como style guide para o site, utilizei: 
+1 --cinza-escuro: #494949;
+2  --cinza-claro: #d3d3d3;
+3  --verde: #02795b;
+4  --branco: #ffffff;
+(cores padronizadas no root do site inteiro)
+5 footer
+6 background color
+7 espaçamentos de margens e bordas 
+8 Um só tipo de fonte
+9 Uso suave de transições
+10 alinhamento
+
+todos estes significam um só padrão de uso, sem repetiçoes ou "chutes" de caracteristicas próximas.
+*/

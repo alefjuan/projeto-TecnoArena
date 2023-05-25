@@ -2,15 +2,16 @@
 <html lang="pt-br">
   <head>
     <title>TecnoLake - Entre ou Cadastre-se</title>
-    <link rel="stylesheet" href="estiloIndex.css" />
+    <link rel="stylesheet" href="estilo-index.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
-  <body onload="carregar()">
+  <body>
     <header>
       <h2>TecnoLake</h2>
     </header>
     <a href="../Homepage/home.html">Homepage - teste de telas***</a>
     <div class="container">
-      <form>
+      <form id="login-forms">
         <h2>Login</h2>
         <label for="username">Usuário</label>
         <input type="text" id="username" name="username" required />
@@ -18,7 +19,8 @@
         <label for="password">Senha</label>
         <input type="password" id="password" name="password" required />
 
-        <input type="submit" value="Entrar" onclick="minhaFuncao()">
+        <button type="submit" value="Entrar">Entrar</button>
+
         <div class="forgot">
           <a href="senha.html">Esqueceu a senha?</a>
           <a href="cadastro.html">Cadastre-se</a>
@@ -31,10 +33,10 @@
     </footer>
     <script>
       function minhaFuncao() {
-        console.log(this); 
-        alert("Validando, aguarde!")
+        console.log(this);
+        alert("Validando, aguarde!");
       }
-      </script>
-    <script src="scriptLogin.js"></script>
+    </script>
+    <script src="script-login.js"></script>
   </body>
 </html>
