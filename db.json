@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe"
+    },
+    {
+      "email": "alef@gmail.com",
+      "user": "alef",
+      "senha": "alefjuan",
+      "id": 3
+    },
+    {
+      "email": "gabriel@gmail.com",
+      "user": "gabriel",
+      "senha": "gabriel",
+      "id": 4
+    },
+    {
+      "email": "root@gmail.com",
+      "user": "root",
+      "senha": "root",
+      "id": 5
+    }
+  ],
+  "cidade": [
+    {
+      "id": 1,
+      "name": "Guarapuava"
+    },
+    {
+      "id": 2,
+      "name": "São Paulo"
+    }
+  ]
+}

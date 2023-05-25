@@ -1,20 +1,23 @@
 function carregar() {
+
   let sair = window.document.getElementById("sair");
   sair.addEventListener("click", clicar);
 
   function clicar() {
     let sair = document.getElementById("sair");
     confirm;
-    if (confirm("Você deseja sair")) {
+    if (confirm("Você deseja sair")) { //confirm
       window.location.href = "/Login/index.html";
     } else {
       console.log("Usuário cancelou.");
     }
   }
-  let inatividadeTimer;
+ 
 
+
+  let inatividadeTimer;
   function iniciarTemporizador() {
-    inatividadeTimer = setTimeout(function () {
+    inatividadeTimer = setTimeout(function () {  //setTimeout
       console.log("Usuário deslogado por inatividade.");
       window.location.href = "/Login/index.html";
     }, 60000);
@@ -25,30 +28,29 @@ function carregar() {
     iniciarTemporizador();
   }
 
-  document.addEventListener("mousemove", reiniciarTemporizador);
+  document.addEventListener("mousemove", reiniciarTemporizador); //evento de mouse
   document.addEventListener("keydown", reiniciarTemporizador);
   document.addEventListener("touchstart", reiniciarTemporizador);
 
   iniciarTemporizador();
+ 
+
+
 
   function fazerPausaParaSeAlongar() {
     alert("Hora de fazer uma pausa para se alongar!");
   }
-  setInterval(fazerPausaParaSeAlongar, 1000 * 60 * 60);
+  setInterval(fazerPausaParaSeAlongar, 1000 * 60 * 60);                 //setInterval
+
+
+
 
   document.addEventListener("keydown", function (event) {
     if (event.key === "h") {
       alert("para ajuda, consulte um dos gestores do programa");
     }
   });
-  const gestores = [Alef, Juan, Ferreira].toLocaleString;
-
-  gestores.forEach(function (nomes) {
-    console.log(nomes);
-  });
-  const alunos = [Gabriel, Correa, Maria, Davi, Lemos, Vinicius, Leticia];
-
-  console.log(alunos.sort());
-  console.log(alunos.filter());
-  console.log(alunos.map());
+  
+ const nomeUser = localStorage.getItem("username");
+ document.getElementById("welcome").textContent = nomeUser;
 }
