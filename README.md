@@ -18,6 +18,7 @@ Caixas de Diálogo
 [✓] prompt
 [✓] alert
 [✓] confirm
+
 Temporizadores
 
 [✓] setInterval
@@ -117,6 +118,8 @@ Requisições assíncronas
  [] Requisições AJAX para uma implementação funcional do backend em ExpressJS na plataforma Node
  [] (Obrigatório) Requisições AJAX para uma API Fake - JSON Server
  [] Requisições AJAX para uma API Rest pública qualquer (Busca CEP API ou IBGE API ou outra).
+
+
 
 
 
