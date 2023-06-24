@@ -30,6 +30,7 @@ formulario.addEventListener('submit', function(event) {
     .catch(error => console.error('Erro ao realizar cadastro:', error));
   }
 });
+
 var radioElement = document.querySelector('input[name="gender"]');
 if (radioElement.checked) {
   console.log("Opção selecionada");
