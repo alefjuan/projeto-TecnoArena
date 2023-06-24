@@ -25,6 +25,30 @@
       "user": "root",
       "senha": "root",
       "id": 5
+    },
+    {
+      "email": "murilo@gmail.com",
+      "user": "murilo",
+      "senha": "123",
+      "id": 6
+    },
+    {
+      "email": "hagakh@gmail.com",
+      "user": "roni",
+      "senha": "sdcqsac",
+      "id": 7
+    },
+    {
+      "email": "teste@gmail.com",
+      "user": "teste",
+      "senha": "teste",
+      "id": 8
+    },
+    {
+      "email": "gab@gmail.com",
+      "user": "gab",
+      "senha": "gab",
+      "id": 9
     }
   ],
   "cidade": [
